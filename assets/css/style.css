@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+section .top{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 320px;
+    
+}
+section .mid{
+    background-color:deepskyblue;
+    width: 100%;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+
+}
+section .last{
+    background-color:aliceblue;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+section .top header ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+
+}
+section .top h3{
+    color: aliceblue;
+    text-align: center;
+}
+section .top .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section .top button{
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    border: none;
+    
+    
+}
+section .top .pic .phone{
+     width: 400px; 
+    rotate: 109deg;
+    position: absolute;
+    top: 20% ;
+    left: 40% ;
+}
+section .mid .second{
+    display: flex;
+    font-family:Josefin Sans;
+    width: 100%;
+    padding: 140px;
+    
+}
+section .mid .second{
+    justify-content: space-around;
+    
+
+}
+section .mid .second .two{
+    width: 300px;
+}
+section .mid .second .one{
+    width: 300px;
+}
+section .mid .second .three{
+    width: 300px;
+} 
+section .last .port{
+    width: 250px; 
+    border-radius: 50%;
+    padding: 20px;
+}
+section .last .quote{ 
+    width: 490px;
+    background-color:#310062;
+    height: 140px;
+    color: aliceblue;
+    height: 210px;
+    padding: 20px;
+    position: absolute;
+    top: 790px;
+    left: 750px;
+}
+section .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Apply{
+    color:black;
+    background-color:darkgoldenrod;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+section .butt{
+    text-align: center;
+}
+section .butt .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
